@@ -1,0 +1,116 @@
+/* Step 6 Create universal tag and set margin to 0
+padding to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Step 7 select nav tag and provide the necessary styling*/
+nav{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+/* Step 8 select li and h1 tag and fix the display property 
+*/
+li,h1{
+    display: inline;
+}
+/* Step 9 select ul tag and fix the display property 
+and move the list to left
+*/
+ul{
+    margin-left: 60%;
+    display: inline;
+}
+
+/* Step 10 Change the color of the a tag to grey
+ and adjust text decoration
+*/
+li {
+    color: grey;
+    text-decoration: none;
+}
+/* Step 11 use hover property with a tag to change 
+the color from grey to white
+*/
+
+/* Step 10 Go back to HTML */
+li:hover{
+    color: white;
+}
+
+/* Step 14 Select input tag and set width and padding*/
+input{
+    width: 70%;
+    padding: 10px;
+}
+
+/* Step 15 Select searchbar class and set text-align:center 
+and also set padding*/
+
+.searchbar {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Step 16 Go Back to HTML*/
+
+/* Step 22 target box class 
+fix display,border,width,alignment*/
+
+.box{
+    border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+}
+
+/* Step 23 fix image width*/
+
+img{
+    width: 220px;
+}
+
+
+/* Step 24 set hover for box*/
+.box:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+/*Step 25 select products class and set alignment to center 
+and padding */
+.products{
+    text-align: center;
+    padding: 30px;
+}
+
+/*Step 26 Go back to html */
+
+
+/*Step 29 Make about Text alignment center*/
+.about{
+    text-align: center;
+}
+
+/*Step 30 set pdding and width for p tag inside about*/
+/*Step 31 Go back to html*/
+.about p{
+    padding: 20px;
+    font-size: larger;
+}
+
+/*Step 36 select contact and set padding*/
+
+.contact{
+    padding: 20px;
+
+}
+
+/*Step 37 select footer and set bg col and text align center*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
